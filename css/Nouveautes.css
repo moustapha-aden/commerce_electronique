@@ -1,0 +1,31 @@
+#Categories {
+  padding: 15px 2%;
+  background-color: #666;
+  margin-top: 10px;
+}
+#Categories h1 {
+  text-align: center;
+}
+.Categories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+#Categories li {
+  display: block;
+  margin: 10px;
+  color: white;
+  font-size: 1.5em;
+}
+#Categories a {
+  text-decoration: none;
+
+  /* color: white; */
+}
+
+#Categories a:hover {
+  color: white;
+  border-bottom: 3px solid deepskyblue;
+}

@@ -1,0 +1,11 @@
+{
+  "editor.wordWrap": "on",
+  "workbench.colorThem": "Dracula",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  //"prettier.configpath":".prettierrc"
+  "prettier.printwidth": 80,
+  "prettier.tabwidth": 2,
+  "liveServer.settings.donotShowInfoMsg": true
+}
