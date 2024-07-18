@@ -68,7 +68,7 @@ li {
   font-size: 1.3em;
 }
 .contents {
-  background-image: url(/picture/Arriere_plan.jpeg);
+  background-image: url(../picture/Arriere_plan.jpeg);
   background-size: cover;
   /* background-repeat: no-repeat; */
   padding: 0.5%;
