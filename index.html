@@ -8,42 +8,42 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="icon" href="./picture/icon.jpeg" />
     <title>MAD-Shop</title>
   </head>
   <body>
     <header>
-      <div id="nom">
-        <img src="./picture/icon.jpeg" alt="" />
-        <h1>MAD-Shop</h1>
+      <div id="logo">
+        <img src="./picture/icon.jpeg" />
+        <span>MAD-Shop</span>
       </div>
       <nav>
-        <ul>
-          <li><a href="" title="Accueil" class="active">Accueil</a></li>
-          <li><a href="" title="Nouveautés">Nouveautés</a></li>
-          <li><a href="" title="solde">solde</a></li>
-          <li><a href="" title="A propos de nous">A propos de nous </a></li>
-          <li><a href="" title="Contact">Contact</a></li>
-          <li><a href="">compte</a></li>
-          <li><a href="">Boutique</a></li>
-        </ul>
+        <a href="#" class="active">Accueil</a>
+        <a href="#">nouveautés</a>
+        <a href="#">solde</a>
+        <a href="#">about</a>
+        <a href="#">contact</a>
       </nav>
+      <div id="conteneur_button">
+        <a href="#" title="Boutique"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+        <a href="#" title="Compte"><i class="fa-solid fa-user"></i> </a>
+      </div>
     </header>
     <main>
-      <section class="contents">
-        <h1>Nouveautés</h1>
-        <p>Notre nouveau catelogue avec les technologies les plus avancéés</p>
-        <button>
-          DECOUVRIR
-        </button>
+      <section id="hero_section">
+        <div>
+          <h1>Bienvenue</h1>
+          <p>Notre nouveau catalogue avec les technologies les plus avancées</p>
+          <button>DECOUVRIR</button>
+        </div>
+        <img src="./picture/Arriere_plan.png" alt="" />
       </section>
 
-      <h1 class="produits_text">Nos meilleures ventes</h1>
-      <section class="section_produits">
+      <section class="products_section">
+        <h1 class="produits_text">Nos meilleures ventes</h1>
         <div class="produits">
           <div class="carte">
             <div class="img">
@@ -53,9 +53,7 @@
               HP windows 11 Laptop ,15.4 inches Full HD 1920*1080,Intel
               J412512GB LPDDR4, 256GB SSD,Expandable 1TB ,4K,WIFI,BT4.0 (BLACK)
             </div>
-            <div class="titre">
-              PC Portable
-            </div>
+            <div class="titre">PC Portable</div>
             <div class="box">
               <div class="prix">100 000Fdj</div>
               <button class="achat">Acheter</button>
@@ -69,9 +67,7 @@
             <div class="desc">
               ANDROID 1GB + 8GB 6.7" Processeur quatre coeurs 32
             </div>
-            <div class="titre">
-              Téléphone portable
-            </div>
+            <div class="titre">Téléphone portable</div>
             <div class="box">
               <div class="prix">60 000Fdj</div>
               <button class="achat">Acheter</button>
@@ -85,9 +81,7 @@
             <div class="desc">
               Samsung Android Galaxy S23 Ultra 256GB + 8GB RAM Processeur 8
             </div>
-            <div class="titre">
-              Téléphone portable
-            </div>
+            <div class="titre">Téléphone portable</div>
             <div class="box">
               <div class="prix">60 000Fdj</div>
               <button class="achat">Acheter</button>
@@ -97,12 +91,8 @@
             <div class="img">
               <img src="/picture/produit4.jpeg" alt="" />
             </div>
-            <div class="desc">
-              Apple iPhone -9P 256 GB 16 RAM Processeur 4
-            </div>
-            <div class="titre">
-              iPhone - 9
-            </div>
+            <div class="desc">Apple iPhone -9P 256 GB 16 RAM Processeur 4</div>
+            <div class="titre">iPhone - 9</div>
             <div class="box">
               <div class="prix">35 000Fdj</div>
               <button class="achat">Acheter</button>
@@ -115,9 +105,7 @@
             <div class="desc">
               Samsung Android A35 5Go 120GB + 6GB RAM Processeur 2
             </div>
-            <div class="titre">
-              Samsung Android A35
-            </div>
+            <div class="titre">Samsung Android A35</div>
             <div class="box">
               <div class="prix">35 000Fdj</div>
               <button class="achat">Acheter</button>
@@ -132,9 +120,7 @@
               HP windows 10 Laptop ,15.4 inches Full HD 1920*1080,Intel
               J412512GB LPDDR4, 256GB SSD,Expandable 1TB ,4K,WIFI,BT4.0 (BLACK)
             </div>
-            <div class="titre">
-              PC Portable
-            </div>
+            <div class="titre">PC Portable</div>
             <div class="box">
               <div class="prix">90 000Fdj</div>
               <button class="achat">Acheter</button>
@@ -148,9 +134,7 @@
             <div class="desc">
               Apple iPhone -XPro 256 GB 16 RAM Processeur 4
             </div>
-            <div class="titre">
-              iPhone - X Pro
-            </div>
+            <div class="titre">iPhone - X Pro</div>
             <div class="box">
               <div class="prix">65 000Fdj</div>
               <button class="achat">Acheter</button>
@@ -164,9 +148,7 @@
             <div class="desc">
               Apple iPhone -11Pro 256 GB 16 RAM Processeur 4
             </div>
-            <div class="titre">
-              iPhone -11Pro
-            </div>
+            <div class="titre">iPhone -11Pro</div>
             <div class="box">
               <div class="prix">80 000Fdj</div>
               <button class="achat">Acheter</button>
