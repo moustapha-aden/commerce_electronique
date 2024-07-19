@@ -37,6 +37,7 @@ header {
 header #nom h1:hover {
   color: gold;
   text-transform: uppercase;
+  cursor: pointer;
 }
 header #nom h1 {
   color: white;
@@ -65,13 +66,13 @@ li {
   display: inline;
   margin: 10px;
   color: white;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 .contents {
   background-image: url(../picture/Arriere_plan.jpeg);
   background-size: cover;
   /* background-repeat: no-repeat; */
-  padding: 0.5%;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
