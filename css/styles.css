@@ -196,7 +196,8 @@ nav a:hover::after {
 }
 
 /* PRODUCTS SECTION */
-#products_section {
+#section_produits {
+  margin-top: 4rem;
   padding: 40px 5%;
   background: silver;
 }
@@ -264,6 +265,7 @@ nav a:hover::after {
   color: white;
   background: gold;
 }
+
 footer {
   display: flex;
   justify-content: center;
