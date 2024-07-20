@@ -19,10 +19,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 2%;
-  background: silver;
+  padding: 10px 4%;
+  background: gold;
   position: sticky;
-  top: 0%;
+  top: 0;
   z-index: 999;
 }
 #nom {
@@ -47,26 +47,17 @@ header nav a {
   text-decoration: none;
   text-transform: uppercase;
   /* color: white; */
+  padding: 15px;
 }
-nav li .active {
+nav a.active {
+  color: white;
+  border-bottom: 2px solid deepskyblue;
+  /* background-color: rgba(69, 26, 223, 0.473); */
+}
+header a:hover {
   color: white;
   border-bottom: 3px solid deepskyblue;
   /* background-color: rgba(69, 26, 223, 0.473); */
-}
-nav li:hover a {
-  color: white;
-  border-bottom: 3px solid deepskyblue;
-  /* background-color: rgba(69, 26, 223, 0.473); */
-}
-
-ul {
-  display: inline;
-}
-li {
-  display: inline;
-  margin: 10px;
-  color: white;
-  font-size: 1em;
 }
 .contents {
   background-image: url(../picture/Arriere_plan.jpeg);
@@ -86,7 +77,31 @@ li {
 .contents p {
   font-size: 20px;
 }
-.contents button {
+
+#conteneur_button {
+  display: flex;
+  gap: 7px;
+}
+#conteneur_button i {
+  font-size: 1.3em;
+}
+#conteneur_button a:hover {
+  color: #3a86ff;
+  border-radius: 50%;
+}
+#conteneur_button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 0.5rem;
+  background-color: #000;
+  color: #fff;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contents a button {
   margin-top: 30px;
   padding: 15px 30px;
   background: red;
