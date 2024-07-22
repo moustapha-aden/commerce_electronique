@@ -58,9 +58,11 @@ header a:hover {
   color: white;
   border-bottom: 3px solid deepskyblue;
   /* background-color: rgba(69, 26, 223, 0.473); */
+  transition: all 0.8s;
 }
+
 .contents {
-  background-image: url(../picture/Arriere_plan.jpeg);
+  background-image: url(../picture/Arriere_plan.png);
   background-size: cover;
   /* background-repeat: no-repeat; */
   padding: 20px;

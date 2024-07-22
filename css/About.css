@@ -1,7 +1,6 @@
 main {
   margin: auto;
   text-align: center;
-  padding: 50px;
   /* height: 50%; */
   width: 50%;
   background-image: url(../picture/Arriere_plan2.jpeg);
@@ -10,6 +9,9 @@ main {
 
 main h2 {
   margin: 10px;
+}
+main h1 {
+  padding-top: 50px;
 }
 span {
   font-weight: bold;
